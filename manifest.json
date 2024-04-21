@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "breezechms-mods",
+  "description": "Mods to the UI of breezechms website",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://*.breezechms.com/checkin/v3/*"
+      ]
+    }
+  ]
+}
